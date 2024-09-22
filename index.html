@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 14 - GitHub Pages</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header text-white text-center p-4">
+        <h1 class="display-4">Atividade Prática 14 - GitHub Pages</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao1">Seção 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao2">Seção 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao3">Seção 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <div id="secao1" class="mb-4">
+            <h2 class="section-title">Seção 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+        </div>
+
+        <div id="secao2" class="mb-4">
+            <h2 class="section-title">Seção 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+        </div>
+
+        <div id="secao3" class="mb-4">
+            <h2 class="section-title">Seção 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+        </div>
+    </div>
+
+    <footer class="footer text-white text-center p-3">
+        <p>&copy; <span id="ano"></span> Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
